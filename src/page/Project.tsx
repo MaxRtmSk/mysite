@@ -29,10 +29,13 @@ const ListWrapper = styled.div`
 const Link = styled.a`
   text-decoration: none;
   color: black;
-  margin: 12px 0;
+  padding: 20px;
+  
 
   &:hover{
-    color: grey;
+    color: #0261aa;
+    font-weight: 500;
+    background-color: #a5a5a5;
   }
 `
 

@@ -7,8 +7,6 @@ const ListBody = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  padding: 10px;
-
   background-color: lightgrey;
 `
 
