@@ -3,68 +3,53 @@ import { ProjectState } from "../../types/project"
 const initialState: ProjectState = {
   react: [
     {
-      id: '1',
-      title: 'ToDo List',
-      gitHub: ''
+      id: '6',
+      title: 'Online Store',
+      gitHub: 'https://github.com/ratomsky/onlineStore',
     },
     {
-      id: '2',
+      id: '5',
+      title: 'ToDo List',
+      gitHub: 'https://github.com/ratomsky/react-redux-ts-todo-app'
+    },
+    {
+      id: '4',
       title: 'Lang App',
-      gitHub: ''
+      gitHub: 'https://github.com/ratomsky/rslang'
     },
     {
       id: '3',
       title: 'Travel App',
-      gitHub: ''
+      gitHub: 'https://github.com/ratomsky/travel-app'
     },
     {
-      id: '4',
+      id: '2',
+      title: 'Blog',
+      gitHub: 'https://github.com/ratomsky/react-redux-blog-app'
+    },
+    {
+      id: '1',
       title: 'Memory Game',
-      gitHub: ''
+      gitHub: 'https://github.com/ratomsky/react-game'
     }, 
   ],
   reactNative: [
     {
       id: '1',
-      title: 'ToDo List',
-      gitHub: ''
-    },
-    {
-      id: '2',
-      title: 'Lang App',
-      gitHub: ''
-    },
-    {
-      id: '3',
-      title: 'Travel App',
-      gitHub: ''
-    },
-    {
-      id: '4',
-      title: 'Memory Game',
-      gitHub: ''
+      title: 'Weather App',
+      gitHub: 'https://github.com/ratomsky/react-native-ts-weather-app'
     },
   ],
   node: [
     {
-      id: '1',
-      title: 'ToDo List',
-      gitHub: ''
-    },
-    {
       id: '2',
-      title: 'Lang App',
-      gitHub: ''
+      title: 'Online Store',
+      gitHub: 'https://github.com/ratomsky/onlineStore',
     },
     {
-      id: '3',
-      title: 'Travel App',
-      gitHub: ''
-    },
-    {
-      id: '4',
-      title: 'Memory Game',
-      gitHub: ''
+      id: '1',
+      title: 'Caesar Cipher CLI',
+      gitHub: 'https://github.com/ratomsky/nodejs-caesar-cipher',
     },
   ]
 }

@@ -1,4 +1,16 @@
 import React from 'react';
+import styled from 'styled-components'
+
+
+const ListBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px;
+
+  background-color: lightgrey;
+`
 
 interface ListProps<T> {
   items: T[]
@@ -8,8 +20,8 @@ interface ListProps<T> {
 export default function List<T>(props: ListProps<T>) {
 
   return (
-    <div>
+    <ListBody>
       {props.items.map(props.renderItem)}
-    </div>
+    </ListBody>
   )
 }

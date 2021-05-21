@@ -4,10 +4,20 @@ import Project from './page/Project';
 export default function App() {
 
   return (
-    <div>
-      <h1>Project</h1>
+    <div style={{
+      height: '800px',
+      display: `flex`,
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      boxSizing: 'border-box'
+    }}>
+      <h1 style={{ textAlign: `center`, margin: '0', }}>My Project List</h1>
+      <p style={{ textAlign: `center`, fontSize: '20px' }}>
+        У всех проектов есть хорошая, написанная мной документация)
+      </p>
       <Project />
-    </div>
+    </div >
   )
 
 }
