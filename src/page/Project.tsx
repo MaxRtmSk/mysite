@@ -1,10 +1,14 @@
-import React from 'react'
+// Components 
 import List from '../components/List'
+import ListItem from '../components/ListItem/ListItem'
 import { useTypedSelector } from '../hooks/useTypedSelector'
 import { IReact } from '../types/project'
+// Styles
 import styled from 'styled-components'
 
 const Container = styled.div`
+  font-family: Arial, Helvetica, sans-serif;
+
   display: flex;
   justify-content: center;
   width: 700px;
@@ -26,18 +30,6 @@ const ListWrapper = styled.div`
   align-items: center;
 `
 
-const Link = styled.a`
-  text-decoration: none;
-  color: black;
-  padding: 20px;
-  
-
-  &:hover{
-    color: #0261aa;
-    font-weight: 500;
-    background-color: #a5a5a5;
-  }
-`
 
 
 export default function Project() {
@@ -51,8 +43,14 @@ export default function Project() {
           <List
             items={react}
             renderItem={
-              (project: IReact) => <Link key={project.id} href={project.gitHub} target={'_blank'
-              }>{project.title}</Link>
+              (project: IReact) => (
+                <ListItem
+                  key={project.id}
+                  href={project.gitHub}
+                  language={project.language}
+                >
+                  {project.title}
+                </ListItem>)
             }
           />
         </ListWrapper>
@@ -61,8 +59,14 @@ export default function Project() {
           <List
             items={reactNative}
             renderItem={
-              (project: IReact) => <Link key={project.id} href={project.gitHub} target={'_blank'
-              }>{project.title}</Link>
+              (project: IReact) => (
+                <ListItem
+                  key={project.id}
+                  href={project.gitHub}
+                  language={project.language}
+                >
+                  {project.title}
+                </ListItem>)
             }
           />
         </ListWrapper>
@@ -71,8 +75,14 @@ export default function Project() {
           <List
             items={node}
             renderItem={
-              (project: IReact) => <Link key={project.id} href={project.gitHub} target={'_blank'
-              }>{project.title}</Link>
+              (project: IReact) => (
+                <ListItem
+                  key={project.id}
+                  href={project.gitHub}
+                  language={project.language}
+                >
+                  {project.title}
+                </ListItem>)
             }
           />
         </ListWrapper>

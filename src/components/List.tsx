@@ -6,8 +6,6 @@ const ListBody = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  background-color: lightgrey;
 `
 
 interface ListProps<T> {

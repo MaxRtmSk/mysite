@@ -1,18 +1,21 @@
 export interface IReact {
   id: string,
   title: string,
+  language: string,
   gitHub: string,
 }
 
 export interface IReactNative {
   id: string,
   title: string,
+  language: string,
   gitHub: string,
 }
 
 export interface INode {
   id: string,
   title: string,
+  language: string,
   gitHub: string,
 }
 
