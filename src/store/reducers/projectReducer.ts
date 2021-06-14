@@ -3,6 +3,12 @@ import { ProjectState } from "../../types/project"
 const initialState: ProjectState = {
   react: [
     {
+      id: '8',
+      title: 'Recipe App',
+      language: 'typescript',
+      gitHub: 'https://github.com/ratomsky/react-redux-ts-recipe-app',
+    },
+    {
       id: '7',
       title: 'Shopping Cart',
       language: 'typescript',
@@ -47,6 +53,12 @@ const initialState: ProjectState = {
   ],
   reactNative: [
     {
+      id: '2',
+      title: 'Swipe',
+      language: 'typescript',
+      gitHub: 'https://github.com/ratomsky/react-native-ts-swipe-ui'
+    },
+    {
       id: '1',
       title: 'Weather App',
       language: 'typescript',
@@ -54,6 +66,18 @@ const initialState: ProjectState = {
     },
   ],
   node: [
+    {
+      id: '4',
+      title: 'Trello server',
+      language: 'typescript',
+      gitHub: 'https://github.com/ratomsky/nodejs21-course-rolingScopes',
+    },
+    {
+      id: '3',
+      title: 'Telegram bot',
+      language: 'typescript',
+      gitHub: 'https://github.com/ratomsky/node-ts-telegram-bot',
+    },
     {
       id: '2',
       title: 'Online Store',

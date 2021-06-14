@@ -15,7 +15,7 @@ export default function App() {
     }}>
       <h1 style={{ textAlign: `center`, margin: '0', }}>My Project List</h1>
       <p style={{ textAlign: `center`, fontSize: '20px' }}>
-        У всех проектов есть хорошая, написанная мной документация)
+        All projects have good README written by me))
       </p>
       <Project />
     </div >
