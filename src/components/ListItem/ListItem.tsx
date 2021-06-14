@@ -10,7 +10,7 @@ type Props = {
 }
 
 const ListItem: React.FC<Props> = (props) => (
-    <Wrapper target={'_blank'} href={props.href}>
+    <Wrapper target={'_blank'} href={props.href} type={props.language}>
         <img
             src={props.language === 'typescript' ? TypeScriptLogo : JavaScriptLogo}
             alt={props.language}
