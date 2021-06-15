@@ -53,6 +53,12 @@ const initialState: ProjectState = {
   ],
   reactNative: [
     {
+      id: '3',
+      title: 'Travel App UI',
+      language: 'typescript',
+      gitHub: 'https://github.com/ratomsky/react-native-travel-app-ui'
+    },
+    {
       id: '2',
       title: 'Swipe',
       language: 'typescript',
